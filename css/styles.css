@@ -34,16 +34,10 @@ img {
 .selection-box {
     display: flex;
     overflow-x: scroll;
-    cursor: grab;
     overflow: hidden;
     width: 100%;
     padding: 0 20px;
     gap: 16px;
-    -webkit-user-drag: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
 }
 
 .dish-box {
@@ -77,6 +71,12 @@ img {
     color: #a6a6a6;
     padding-top: 8px;
 }
+.lastline {
+    padding-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
 .dish-price {
     font-family: "Roboto";
     font-style: normal;
@@ -84,8 +84,10 @@ img {
     font-size: 16px;
     line-height: 19px;
     color: #000000;
-    align-items: bottom;
-    align-self: bottom;
-    align-content: bottom;
-    padding-top: 8px;
+}
+
+.checkmark {
+    opacity: 0;
+    color: #32b72f;
+    font-size: 18px;
 }
