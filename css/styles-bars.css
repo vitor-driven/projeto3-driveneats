@@ -1,0 +1,50 @@
+.topbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-left: 21px;
+    background-color: #cf2b2b;
+    color: #ffffff;
+    height: 92px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.topbar .righteous {
+    padding-top: 14px;
+    font-size: 44px;
+}
+.subtitle {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.bottombar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 92px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 0px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.order-button {
+    cursor: pointer;
+    width: 100%;
+    height: 61px;
+    color: white;
+    background-color: #cbcbcb;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    line-height: 23px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}

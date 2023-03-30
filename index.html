@@ -9,7 +9,9 @@
         />
         <link href="css/reset.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/styles-bars.css" rel="stylesheet" />
         <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Projeto DrivenEats</title>
     </head>
@@ -18,21 +20,72 @@
             <div class="righteous">DrivenEats</div>
             <div class="subtitle">Sua comida em 6 minutos</div>
         </div>
-        <div class="maincontent">
+        <div class="main-content">
             <div class="food section">
-                <div class="headline righteous"></div>
+                <div class="headline righteous">Primeiro, seu prato</div>
                 <div class="selection-box">
-                    <div class="dish-box">
-                        <div class="dish-img"></div>
-                        <div class="dish-name"></div>
-                        <div class="dish-desc"></div>
-                        <div class="dish-price"></div>
+                    <div class="dish-box food-A">
+                        <img src="media/frango.png"class="dish-img"></img>
+                        <div class="dish-name">Frango Yin Yang</div>
+                        <div class="dish-desc">
+                            Um pouco de batata, um pouco de salada
+                        </div>
+                        <div class="dish-price">R$ 9,90</div>
+                    </div>
+                    <div class="dish-box food-B">
+                        <img src="media/frango.png"class="dish-img"></img>
+                        <div class="dish-name">Bife Yin Yang</div>
+                        <div class="dish-desc">
+                            Um pouco de batata, um pouco de salada
+                        </div>
+                        <div class="dish-price">R$ 14,90</div>
+                    </div>
+                    <div class="dish-box food-C">
+                        <img src="media/frango.png"class="dish-img"></img>
+                        <div class="dish-name">Tofu Yin Yang</div>
+                        <div class="dish-desc">
+                            Um pouco de batata, um pouco de salada
+                        </div>
+                        <div class="dish-price">R$ 18,90</div>
                     </div>
                 </div>
             </div>
+            <div class="drink section">
+                <div class="headline righteous">Agora, sua bebida</div>
+                <div class="selection-box">
+                    <div class="dish-box drink-A">
+                        <img src="media/refri.png"class="dish-img"></img>
+                        <div class="dish-name">Coquinha Gelada</div>
+                        <div class="dish-desc">
+                            Lata 350ml
+                        </div>
+                        <div class="dish-price">R$ 9,90</div>
+                    </div>
+                    <div class="dish-box drink-B">
+                        <img src="media/refri.png"class="dish-img"></img>
+                        <div class="dish-name">Coquinha Zero</div>
+                        <div class="dish-desc">
+                            Lata 350ml         
+                        </div>
+                        <div class="dish-price">R$ 14,90</div>
+                    </div>
+                    <div class="dish-box drink-C">
+                        <img src="media/refri.png"class="dish-img"></img>
+                        <div class="dish-name">Suco de Uva</div>
+                        <div class="dish-desc">
+                            Lata 350ml
+                        </div>
+                        <div class="dish-price">R$ 18,90</div>
+                    </div>
+                </div>
+            </div>
+
         </div>
         <div class="bottombar">
-            <div class="checkout-button"></div>
+            <button href="#" class="order-button">
+                Selecione os 3 itens<br />para fechar o pedido
+            </button>
         </div>
+        <script src="script/scripts.js"></script>
     </body>
 </html>

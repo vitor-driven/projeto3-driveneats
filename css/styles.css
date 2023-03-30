@@ -1,25 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+* {
+    text-decoration: none;
+}
 body {
     font-family: "Roboto", sans-serif;
     background-color: #e5e5e5;
 }
+img {
+    pointer-events: none;
+}
 .righteous {
     font-family: "Righteous";
 }
-.topbar {
-    padding-left: 21px;
-    background-color: #cf2b2b;
-    color: white;
-    height: 92px;
+
+.main-content {
+    margin: 92px 0;
+    padding: 20px 0;
+    display: flex;
+    flex-flow: column nowrap;
 }
-.topbar .righteous {
+.headline {
+    margin: 12px 0 0 20px;
+    height: 25px;
+    line-height: 32px;
+    font-size: 26px;
+    color: #333333;
+}
+.section + .section {
+    margin-top: 15px;
+}
+.selection-box {
+    display: flex;
+    overflow-x: scroll;
+    cursor: grab;
+    overflow: hidden;
+    width: 100%;
+    padding: 0 20px;
+    gap: 16px;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.dish-box {
+    margin-top: 15px;
+    padding: 18px 14px 12px 14px;
+    width: 172px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+}
+.dish-img {
+    height: 87px;
+    width: 144px;
+    border-radius: 4px;
+}
+.dish-name {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    padding-top: 5px;
+}
+.dish-desc {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #a6a6a6;
     padding-top: 8px;
-    font-size: 44px;
-    line-height: 55px;
 }
-.subtitle {
+.dish-price {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    align-items: bottom;
+    align-self: bottom;
+    align-content: bottom;
+    padding-top: 8px;
 }
