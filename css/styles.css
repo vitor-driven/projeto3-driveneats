@@ -1,0 +1,25 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #e5e5e5;
+}
+.righteous {
+    font-family: "Righteous";
+}
+.topbar {
+    padding-left: 21px;
+    background-color: #cf2b2b;
+    color: white;
+    height: 92px;
+}
+.topbar .righteous {
+    padding-top: 8px;
+    font-size: 44px;
+    line-height: 55px;
+}
+.subtitle {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
