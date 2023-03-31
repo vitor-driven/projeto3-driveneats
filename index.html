@@ -10,6 +10,7 @@
         <link href="css/reset.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/styles-bars.css" rel="stylesheet" />
+        <link rel="icon" href="data:,">
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -24,36 +25,36 @@
             <div class="food section">
                 <div class="headline righteous">Primeiro, seu prato</div>
                 <div class="selection-box">
-                    <div class="dish-box" onclick="selectFood(this)">
+                    <div class="dish-box" data-test="dish" onclick="selectFood(this)">
                         <img src="media/frango.png"class="dish-img"></img>
                         <div class="dish-name">Frango Yin Yang</div>
                         <div class="dish-desc">
                             Um pouco de batata, um pouco de salada
                         </div>
                         <div class="lastline">
-                            <div class="dish-price">R$ 11,90</div>
+                            <div class="dish-price" data-test="item-price">R$ 11,90</div>
                             <div class="checkmark"><ion-icon name="checkmark-circle"></ion-icon></div>
                         </div>
                     </div>
-                    <div class="dish-box" onclick="selectFood(this)">
+                    <div class="dish-box" data-test="dish" onclick="selectFood(this)">
                         <img src="media/vaca.png"class="dish-img"></img>
                         <div class="dish-name">Bife Yin Yang</div>
                         <div class="dish-desc">
                             Um pouco de batata, um pouco de salada
                         </div>
                         <div class="lastline">
-                            <div class="dish-price">R$ 14,90</div>
+                            <div class="dish-price" data-test="item-price">R$ 14,90</div>
                             <div class="checkmark"><ion-icon name="checkmark-circle"></ion-icon></div>
                         </div>
                     </div>
-                    <div class="dish-box" onclick="selectFood(this)">
+                    <div class="dish-box" data-test="dish" onclick="selectFood(this)">
                         <img src="media/peixe.png"class="dish-img"></img>
                         <div class="dish-name">Peixe Yin Yang</div>
                         <div class="dish-desc">
                             Um pouco de batata, um pouco de salada
                         </div>
                         <div class="lastline">
-                            <div class="dish-price">R$ 17,90</div>
+                            <div class="dish-price" data-test="item-price">R$ 17,90</div>
                             <div class="checkmark"><ion-icon name="checkmark-circle"></ion-icon></div>
                         </div>
                     </div>
@@ -62,36 +63,36 @@
             <div class="drink section">
                 <div class="headline righteous">Agora, sua bebida</div>
                 <div class="selection-box">
-                    <div class="dish-box" onclick="selectDrink(this)">
+                    <div class="dish-box" data-test="drink" onclick="selectDrink(this)">
                         <img src="media/coca.png"class="dish-img"></img>
                         <div class="dish-name">Coquinha Gelada</div>
                         <div class="dish-desc">
                             Lata 350ml
                         </div>
                         <div class="lastline">
-                            <div class="dish-price">R$ 7,50</div>
+                            <div class="dish-price" data-test="item-price">R$ 7,50</div>
                             <div class="checkmark"><ion-icon name="checkmark-circle"></ion-icon></div>
                         </div>
                     </div>
-                    <div class="dish-box" onclick="selectDrink(this)">
+                    <div class="dish-box" data-test="drink" onclick="selectDrink(this)">
                         <img src="media/coca-zero.png"class="dish-img"></img>
                         <div class="dish-name">Coquinha Zero</div>
                         <div class="dish-desc">
                             Lata 350ml         
                         </div>
                         <div class="lastline">
-                            <div class="dish-price">R$ 7,90</div>
+                            <div class="dish-price" data-test="item-price">R$ 7,90</div>
                             <div class="checkmark"><ion-icon name="checkmark-circle"></ion-icon></div>
                         </div>
                     </div>
-                    <div class="dish-box" onclick="selectDrink(this)">
+                    <div class="dish-box" data-test="drink" onclick="selectDrink(this)">
                         <img src="media/suco.png"class="dish-img"></img>
                         <div class="dish-name">Suco de Uva</div>
                         <div class="dish-desc">
                             Lata 350ml
                         </div>
                         <div class="lastline">
-                            <div class="dish-price">R$ 6,90</div>
+                            <div class="dish-price" data-test="item-price">R$ 6,90</div>
                             <div class="checkmark"><ion-icon name="checkmark-circle"></ion-icon></div>
                         </div>
                     </div>
@@ -100,36 +101,36 @@
             <div class="dessert section">
                 <div class="headline righteous">Por fim, sua sobremesa</div>
                 <div class="selection-box">
-                    <div class="dish-box" onclick="selectDessert(this)">
+                    <div class="dish-box" data-test="dessert" onclick="selectDessert(this)">
                         <img src="media/pudim.png"class="dish-img"></img>
                         <div class="dish-name">Pudim</div>
                         <div class="dish-desc">
                             Cremoso para a cremosa
                         </div>
                         <div class="lastline">
-                            <div class="dish-price">R$ 11,90</div>
+                            <div class="dish-price" data-test="item-price">R$ 11,90</div>
                             <div class="checkmark"><ion-icon name="checkmark-circle"></ion-icon></div>
                         </div>
                     </div>
-                    <div class="dish-box" onclick="selectDessert(this)">
+                    <div class="dish-box" data-test="dessert" onclick="selectDessert(this)">
                         <img src="media/rapadura.png"class="dish-img"></img>
                         <div class="dish-name">Rapadura</div>
                         <div class="dish-desc">
                             Como a vida, é doce mas não é mole
                         </div>
                         <div class="lastline">
-                            <div class="dish-price">R$ 5,90</div>
+                            <div class="dish-price" data-test="item-price">R$ 5,90</div>
                             <div class="checkmark"><ion-icon name="checkmark-circle"></ion-icon></div>
                         </div>
                     </div>
-                    <div class="dish-box" onclick="selectDessert(this)">
+                    <div class="dish-box" data-test="dessert" onclick="selectDessert(this)">
                         <img src="media/sorvete.png"class="dish-img"></img>
                         <div class="dish-name">Sorvete</div>
                         <div class="dish-desc">
                             Gelado de doer o céu da boca
                         </div>
                         <div class="lastline">
-                            <div class="dish-price">R$ 8,90</div>
+                            <div class="dish-price" data-test="item-price">R$ 8,90</div>
                             <div class="checkmark"><ion-icon name="checkmark-circle"></ion-icon></div>
                         </div>
                     </div>
@@ -137,7 +138,7 @@
             </div>
         </div>
         <div class="bottombar">
-            <button href="#" class="order-button">
+            <button href="#" class="order-button" onclick="sendOrder()">
                 Selecione os 3 itens<br />para fechar o pedido
             </button>
         </div>
