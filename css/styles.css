@@ -34,13 +34,13 @@ img {
 .selection-box {
     display: flex;
     overflow-x: scroll;
-    overflow: hidden;
     width: 100%;
     padding: 0 20px;
     gap: 16px;
 }
 
 .dish-box {
+    box-sizing: border-box;
     margin-top: 15px;
     padding: 18px 14px 12px 14px;
     width: 172px;
@@ -52,6 +52,7 @@ img {
     height: 87px;
     width: 144px;
     border-radius: 4px;
+    object-fit: cover;
 }
 .dish-name {
     font-family: "Roboto";
@@ -90,4 +91,13 @@ img {
     opacity: 0;
     color: #32b72f;
     font-size: 18px;
+}
+
+.selected {
+    border: #32b72f 5px solid;
+    padding: 13px 9px 7px 9px;
+}
+
+.selected .checkmark {
+    opacity: 1;
 }
